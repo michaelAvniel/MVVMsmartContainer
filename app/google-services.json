@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "511329275352",
+    "firebase_url": "https://smartcontainerdemo-a97e4.firebaseio.com",
+    "project_id": "smartcontainerdemo-a97e4",
+    "storage_bucket": "smartcontainerdemo-a97e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511329275352:android:693f135b551f810b",
+        "android_client_info": {
+          "package_name": "com.smartcontainer.smartcontainerdemofirestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511329275352-hksbob8vakgn7jvmr3vt4u4tdd42ks9t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartcontainer.smartcontainerdemofirestore",
+            "certificate_hash": "37879be621629d3859340643a1127821e0b8ddf2"
+          }
+        },
+        {
+          "client_id": "511329275352-bg2po7b6amekdduajctvbo7pmltgamqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyrOLbRf6zD2oQvKHcXgcs8bwzOcLkl_w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511329275352-bg2po7b6amekdduajctvbo7pmltgamqr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511329275352:android:e17d9b3b11374972",
+        "android_client_info": {
+          "package_name": "com.smartcontainer.smartcontainermvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511329275352-sh3edj7tiun96k683evh30jkp0cou8ll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartcontainer.smartcontainermvvm",
+            "certificate_hash": "37879be621629d3859340643a1127821e0b8ddf2"
+          }
+        },
+        {
+          "client_id": "511329275352-bg2po7b6amekdduajctvbo7pmltgamqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyrOLbRf6zD2oQvKHcXgcs8bwzOcLkl_w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511329275352-bg2po7b6amekdduajctvbo7pmltgamqr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
