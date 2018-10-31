@@ -1,6 +1,5 @@
 package com.smartcontainer.smartcontainermvvm.inventory_status;
 
-import android.arch.lifecycle.ViewModelProvider;
 import android.arch.lifecycle.ViewModelProviders;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,7 +7,7 @@ import android.widget.Toast;
 
 import com.smartcontainer.smartcontainermvvm.R;
 import com.smartcontainer.smartcontainermvvm.data.DataSourceRepository;
-import com.smartcontainer.smartcontainermvvm.data.model.ProductResponse;
+import com.smartcontainer.smartcontainermvvm.data.model.StatusResponse;
 
 import io.reactivex.disposables.CompositeDisposable;
 
@@ -20,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         init();
-        mStatusViewModel.onProsuct();
+        mStatusViewModel.onProduct();
     }
 
     private void init() {
@@ -32,10 +31,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void observe() {
-        mStatusViewModel.ProductResponse().observe(this,this::renderProductResult);
+        mStatusViewModel.ProductResponse().observe(this, this::renderProductResult);
     }
 
-    private void renderProductResult(ProductResponse productResponse) {
-        Toast.makeText(this, productResponse.toString(), Toast.LENGTH_SHORT).show();
+    private void renderProductResult(StatusResponse statusResponse) {
+        Toast.makeText(this, statusResponse.data.toString(), Toast.LENGTH_SHORT).show();
     }
 }

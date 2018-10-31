@@ -4,17 +4,18 @@ import android.arch.lifecycle.ViewModel;
 import android.arch.lifecycle.ViewModelProvider;
 import android.support.annotation.NonNull;
 
+import com.smartcontainer.smartcontainermvvm.data.DataSourceRepository;
 import com.smartcontainer.smartcontainermvvm.data.StatusDataSource;
 
 import io.reactivex.disposables.CompositeDisposable;
 
 public class StatusViewModelFactory implements ViewModelProvider.Factory {
     private final CompositeDisposable mDisposables;
-    private final StatusDataSource mStatusDataSource;
+    private final DataSourceRepository mStatusDataSource;
 
-    public StatusViewModelFactory(CompositeDisposable disposables, StatusDataSource statusDataSource) {
+    public StatusViewModelFactory(CompositeDisposable disposables, DataSourceRepository repository) {
         mDisposables = disposables;
-        mStatusDataSource = statusDataSource;
+        mStatusDataSource = repository;
     }
 
     @NonNull
